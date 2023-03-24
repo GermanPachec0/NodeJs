@@ -1,0 +1,9 @@
+html 
+    head 
+        title Tareas 
+    body 
+        h1= task.description 
+        p= task.createdAt
+        p 
+            strong Autor: 
+            span= task.user.email 
